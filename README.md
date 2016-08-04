@@ -1,0 +1,2 @@
+# SFSDWebImage
+对SDWebImage的二次封装。主要是防止SDWebImage停止更新的话，可以方便的使用相同功能的第三方，同时不用修改大量的代码
