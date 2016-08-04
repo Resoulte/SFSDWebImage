@@ -4,7 +4,9 @@
 //
 //  Created by ma c on 16/8/4.
 //  Copyright © 2016年 shifei. All rights reserved.
-//
+
+
+/**此次封装的功能依赖于SDWebImage:https://github.com/rs/SDWebImage.git*/
 
 #import <UIKit/UIKit.h>
 
