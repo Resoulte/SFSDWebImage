@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		041A0D061D54430600035194 /* UIImageView+SFSDWebImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 041A0D051D54430600035194 /* UIImageView+SFSDWebImage.m */; };
 		041EF5211D5349D80021C1B6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 041EF5201D5349D80021C1B6 /* main.m */; };
 		041EF5241D5349D90021C1B6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 041EF5231D5349D90021C1B6 /* AppDelegate.m */; };
 		041EF5271D5349D90021C1B6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 041EF5261D5349D90021C1B6 /* ViewController.m */; };
@@ -14,11 +15,12 @@
 		041EF52D1D5349D90021C1B6 /* SFSDWebImage.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 041EF52B1D5349D90021C1B6 /* SFSDWebImage.xcdatamodeld */; };
 		041EF52F1D5349D90021C1B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 041EF52E1D5349D90021C1B6 /* Assets.xcassets */; };
 		041EF5321D5349D90021C1B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 041EF5301D5349D90021C1B6 /* LaunchScreen.storyboard */; };
-		041EF53B1D5356270021C1B6 /* UIImageView+SFSDWebImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 041EF53A1D5356270021C1B6 /* UIImageView+SFSDWebImage.m */; };
 		9AD289C7E46F01F7CB0B2AE4 /* libPods-SFSDWebImage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5490A7A9BFC2CBB9B1D1A47D /* libPods-SFSDWebImage.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		041A0D041D54430600035194 /* UIImageView+SFSDWebImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+SFSDWebImage.h"; sourceTree = "<group>"; };
+		041A0D051D54430600035194 /* UIImageView+SFSDWebImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+SFSDWebImage.m"; sourceTree = "<group>"; };
 		041EF51C1D5349D80021C1B6 /* SFSDWebImage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SFSDWebImage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		041EF5201D5349D80021C1B6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		041EF5221D5349D80021C1B6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -30,8 +32,6 @@
 		041EF52E1D5349D90021C1B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		041EF5311D5349D90021C1B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		041EF5331D5349D90021C1B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		041EF5391D5356270021C1B6 /* UIImageView+SFSDWebImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+SFSDWebImage.h"; sourceTree = "<group>"; };
-		041EF53A1D5356270021C1B6 /* UIImageView+SFSDWebImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+SFSDWebImage.m"; sourceTree = "<group>"; };
 		38A826BD4FD0A59761BA7198 /* Pods-SFSDWebImage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SFSDWebImage.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SFSDWebImage/Pods-SFSDWebImage.debug.xcconfig"; sourceTree = "<group>"; };
 		5490A7A9BFC2CBB9B1D1A47D /* libPods-SFSDWebImage.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SFSDWebImage.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F04B6CC7879038705132E54C /* Pods-SFSDWebImage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SFSDWebImage.release.xcconfig"; path = "Pods/Target Support Files/Pods-SFSDWebImage/Pods-SFSDWebImage.release.xcconfig"; sourceTree = "<group>"; };
@@ -49,6 +49,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		041A0D031D54430600035194 /* SFSDWebImage */ = {
+			isa = PBXGroup;
+			children = (
+				041A0D041D54430600035194 /* UIImageView+SFSDWebImage.h */,
+				041A0D051D54430600035194 /* UIImageView+SFSDWebImage.m */,
+			);
+			path = SFSDWebImage;
+			sourceTree = "<group>";
+		};
 		041EF5131D5349D80021C1B6 = {
 			isa = PBXGroup;
 			children = (
@@ -70,12 +79,11 @@
 		041EF51E1D5349D80021C1B6 /* SFSDWebImage */ = {
 			isa = PBXGroup;
 			children = (
+				041A0D031D54430600035194 /* SFSDWebImage */,
 				041EF5221D5349D80021C1B6 /* AppDelegate.h */,
 				041EF5231D5349D90021C1B6 /* AppDelegate.m */,
 				041EF5251D5349D90021C1B6 /* ViewController.h */,
 				041EF5261D5349D90021C1B6 /* ViewController.m */,
-				041EF5391D5356270021C1B6 /* UIImageView+SFSDWebImage.h */,
-				041EF53A1D5356270021C1B6 /* UIImageView+SFSDWebImage.m */,
 				041EF5281D5349D90021C1B6 /* Main.storyboard */,
 				041EF52E1D5349D90021C1B6 /* Assets.xcassets */,
 				041EF5301D5349D90021C1B6 /* LaunchScreen.storyboard */,
@@ -232,7 +240,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				041EF53B1D5356270021C1B6 /* UIImageView+SFSDWebImage.m in Sources */,
+				041A0D061D54430600035194 /* UIImageView+SFSDWebImage.m in Sources */,
 				041EF5271D5349D90021C1B6 /* ViewController.m in Sources */,
 				041EF5241D5349D90021C1B6 /* AppDelegate.m in Sources */,
 				041EF52D1D5349D90021C1B6 /* SFSDWebImage.xcdatamodeld in Sources */,
